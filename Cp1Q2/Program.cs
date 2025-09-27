@@ -22,14 +22,14 @@ if (idadeEmAnos < 16)
     bool isEmancipado = Convert.ToBoolean(Console.ReadLine());
     if (isEmancipado)
     {
-        Console.WriteLine("Vocepode tirar a carteira de motorista, só não dirija um kwid: ");
+        Console.WriteLine("Vocepode tirar a carteira de motorista, só não dirija um kwid (eu queria ter um kwid)");
     }
     else
     {
-        Console.WriteLine("Voce nao pode tirar motorista ");
+        Console.WriteLine("Voce nao pode tirar a carteira de motorista!");
     }
 }
 else
 {
-    Console.WriteLine(nome + ", Voce pode tirar carteira, só não beba enquanto dirija");
+    Console.WriteLine(nome + ", Voce pode tirar carteira, bem vindo de volta, Max Verstappen!");
 }
